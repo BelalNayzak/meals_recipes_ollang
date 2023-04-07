@@ -1,16 +1,29 @@
-# ollang_recipes
+# Recipes App
 
-A new Flutter project.
+A meals/recipes Flutter app demo.
 
-## Getting Started
+## Summary
 
-This project is a starting point for a Flutter application.
+This project is a simple Flutter application sample case.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Explore Recipes: user can find trending recipes in the Home Screen.
+- Search for Recipe: user can search for recipes in the Search Screen with its name or ingredients.
+- Meal details: in Meal Details screen the user can view the image, the ingredients and the instructions of the recipe.
+- Favourite: user can mark items as favourite and view them in the Favourits Screen.
+- Random Recipe: user can get a random recipe.
+- Fancy UI.
+
+
+## Used Tools
+
+- Edmam Recipe API: as a data source.
+- Provider: as a state manager.
+- Hive: for local storage.
+
+
+## TODO:
+- Fixes
+- UI layer code refactoring.
